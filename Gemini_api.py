@@ -1,7 +1,7 @@
 
 import google.generativeai as genai
 
-genai.configure(api_key="AIzaSyCVC2VEYBZWORG-vMV068y3FS7QCccbYQA")
+genai.configure(api_key="insert api key")
 
 generation_config = {
     "temperature": 0.2,
@@ -26,4 +26,5 @@ try:
     print(response.text)
 except Exception as e:
     print("Exception:\n", e, "\n")
+
     print("Response:\n", response.candidates)
