@@ -7,7 +7,7 @@ import google.generativeai as genai
 import tempfile
 import os
 
-api_key = "AIzaSyCLMQuQich4jg7c4FzGx8OfIuUWU9KakHk"  # Replace with your actual API key
+api_key = "Replace with your actual API key"  
 genai.configure(api_key=api_key)
 
 OUTPUT_PATH = Path(__file__).parent
@@ -332,3 +332,4 @@ canvas.bind("<ButtonRelease-1>", reset)
 
 root.resizable(False, False)
 root.mainloop()
+
